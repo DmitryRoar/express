@@ -1,0 +1,37 @@
+.nav-wrapper {
+    padding: 0 2rem;
+}
+
+.price {
+    font-size: 2rem;
+}
+
+.course {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.course h1 {
+    margin-bottom: 2rem;
+}
+
+.course img {
+    max-width: 600px;
+    height: auto;
+}
+
+.course .price.big {
+    font-size: 2.5rem;
+}
+
+.myCap {
+    text-transform: capitalize;
+}
+
+.card-action  {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
